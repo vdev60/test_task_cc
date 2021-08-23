@@ -23,3 +23,4 @@ You can run black package for code formatter
 $ black {source_file_or_directory}
 ```
 Heroku app - https://test-task-cc.herokuapp.com/
+Graphql - https://test-task-cc.herokuapp.com/graphql
