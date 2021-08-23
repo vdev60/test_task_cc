@@ -18,9 +18,9 @@ def get_user_data():
             with open("api/data.json", "w") as f:
                 data_set = {"user":username, "repos": repos}
                 json.dump(data_set, fp=f, indent = 4)
-            return render_template("repos.html", repos=repos , username = username)
+            return render_template("list_repos.html", repos=repos , username = username)
         else:
-            return f"{response.json()}"
+            return f"<h1>User not found</h1>"
             
     return render_template("form.html")
 
