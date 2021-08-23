@@ -11,3 +11,14 @@ $ source .venv/bin/activate
 ```console
 $ pip install -r requirements.txt
 ```
+
+3. To run flake8 linter use next command
+
+```console
+$ flake8 --config .flake8
+```
+    You can run black package for code formatter
+
+```console
+$ black {source_file_or_directory}
+```
