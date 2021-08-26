@@ -131,3 +131,7 @@ dmypy.json
 
 #ignore api/*.json
 api/*.json
+
+
+#ignore tests/snapshots
+tests/snapshots/*
