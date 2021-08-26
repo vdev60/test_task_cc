@@ -24,3 +24,14 @@ $ black {source_file_or_directory}
 ```
 Heroku app - https://test-task-cc.herokuapp.com/
 Graphql - https://test-task-cc.herokuapp.com/graphql
+
+4. To run unit testing use next command
+
+```console
+$ pytest tests
+```
+
+For unit testing used:
+
+pytest -  https://docs.pytest.org/en/6.2.x/
+snapshottest - https://github.com/syrusakbary/snapshottest
