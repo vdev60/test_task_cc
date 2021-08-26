@@ -17,8 +17,10 @@ $ pip install -r requirements.txt
 ```console
 $ flake8 --config .flake8
 ```
-    You can run black package for code formatter
+You can run black package for code formatter
 
 ```console
 $ black {source_file_or_directory}
 ```
+Heroku app - https://test-task-cc.herokuapp.com/
+Graphql - https://test-task-cc.herokuapp.com/graphql
